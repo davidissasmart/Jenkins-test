@@ -15,7 +15,7 @@ public class IntrusionDetectionSystemTest {
     @Test
     public void canJediObiWanAllowed() {
         //updated status to fail test
-        assertEquals("", ids.isAllowed("Jedi-Obi-wan"), true);
+        assertEquals("", ids.isAllowed("Jedi-Obi-wan"), false);
     }
 	//@Ignore
     @Test
@@ -69,6 +69,15 @@ public class IntrusionDetectionSystemTest {
         assertEquals("", ids.fromDarkSide("Darth Vader"), true);
     }
 
+    @Test
+    public void nisargaTest1Fail() {
+        assertEquals("", false, true);
+    }
+
+    @Test
+    public void nisargaTest1Pass() {
+        assertEquals("", true, true);
+    }
 
 }
 
