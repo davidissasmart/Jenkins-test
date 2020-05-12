@@ -69,6 +69,14 @@ public class IntrusionDetectionSystemTest {
         assertEquals("", ids.fromDarkSide("Darth Vader"), true);
     }
 
+    @Test
+    public void tarUnTest1() {
+        assertEquals("", ids.fromDarkSide("Darth Vader"), true);
+    }
 
+    @Test
+    public void tarUnTest2() {
+        assertEquals("", ids.fromDarkSide("Vader"), true);
+    }
 }
 
