@@ -66,6 +66,9 @@
   <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="pricessLeia" time="0.004"/>
   <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="darthMaul" time="0"/>
  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="nisarga" time="0"/>
+	<testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="demoIssue" time="0">
+		<failure message="Assertion failed">Assertion failed</failure>
+	</testcase>
   <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="canJediObiWanAllowed" time="0.008">
     <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:88)
