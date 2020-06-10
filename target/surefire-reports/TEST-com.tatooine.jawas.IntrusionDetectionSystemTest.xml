@@ -106,13 +106,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="jarjar" time="0"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="testJediYoda" time="0"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="r2d2" time="0.001"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="lukeSkywalker" time="0"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="hanSolo" time="0"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="chewbacca" time="0"/>
-  <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="howAboutDarthVader" time="0.003">
+    <testcase classname="com.tatooine.jawas.IntrusionDetectionSystemTest" name="howAboutDarthVader" time="0.003">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
