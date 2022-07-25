@@ -68,6 +68,11 @@ public class IntrusionDetectionSystemTest {
     public void darthMaul() {
         assertEquals("", ids.fromDarkSide("Darth Vader"), true);
     }
+	
+   @Test
+    public void jassar() {
+        assertEquals("", ids.fromDarkSide("Darth Vader"), true);
+    }
 
 
 }
